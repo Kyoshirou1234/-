@@ -1,0 +1,456 @@
+/* 親が持つ共通要素 */
+.center{
+    text-align:center;
+}
+
+.parent{
+  display: block;
+  margin: auto;
+
+  display:flex;
+  align-items: center;
+}
+
+/* 本文に関する共通要素 */
+.text{
+    font-size: 16px;
+    color: #222;
+    font-family: 'Meiryo UI', sans-serif;
+    line-height: 150%; /* 行の高さを指定する */
+}
+/* タイトルに関する共通要素 */
+.Etitle{
+  font-size: 24px;
+  color: #ffd61a;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.Jtitle{
+  font-size: 18px;
+  color: #222;
+  font-weight: bold;
+}
+
+/* 表に関する共通要素 */
+.th-right{
+  border-bottom: solid 2px;
+  vertical-align: middle;
+}
+
+.th-left{
+  font-size: 16px;
+  color: #222;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  vertical-align: middle;
+  width: 37.5%;
+  height: 100px;
+}
+
+.div_send{
+  text-align: center;
+  background: #ffd61a;
+  border: none;
+  width:  200px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+.th-bottom{
+  border-right: solid 2px;
+  width: 37.5%;
+  height: 100px;
+}
+
+/*---------------行間クラス一覧---------------------*/
+/*30px*/
+.br24{
+  margin-bottom: 24px;
+  }
+
+/*30px*/
+.br30{
+  margin-bottom: 30px;
+  }
+
+/*40px*/
+.br40{
+  margin-bottom: 40px;
+  }
+
+/*60px*/
+.br60{
+  margin-bottom: 60px;
+  }
+
+/*80px*/
+.br80{
+  margin-bottom: 80px;
+  }
+
+  .br120{
+    margin-bottom: 120px;
+    }
+  
+/*---------------------------------------------------*/
+
+/*-----------------headerに関する定義---------------*/
+.header_parent{
+  width:1365px;
+  height:80px;
+  
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nav{
+  list-style: none;
+  display: flex;
+}
+
+#nav li{ 
+  width: 140px;
+  text-align: center;
+  background-color: #ffffff;
+
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
+   
+#nav li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 24px;
+}
+    
+  /*--------------------------------------------------*/
+
+
+  /*-------------------メイン画像-----------------------*/
+  
+  .parent_main_img{
+    width:1365px;
+    height:500px;
+    
+    display: block;
+    margin: auto;
+
+    position: relative;
+  }
+
+  .main_img_text{
+    width: 60%;
+    height: 20%;
+    text-align:center;
+
+    position: absolute;
+    top:40%;
+    left:20%;
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*----------------------------------------------------------*/
+
+
+  .img_parent{
+    width: 1365px;
+    background: whitesmoke;
+    
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .img{
+    width: 25%;
+  }
+
+
+
+
+/*フォントについて*/
+
+
+.text_font{
+  font-size: 16px;
+  color: #222;
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+  line-height: 120%; /* 行の高さを指定する */
+}
+
+.text{
+  font-size: 16px;
+  color: #222;
+
+}
+
+
+    
+/*---------------------Course部分---------------------*/
+.div1{
+    text-align:center;
+}
+
+.course1{
+  width:1365px;
+
+  display: block;
+  margin: auto;
+
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+}
+
+.course2{
+
+  width:1365px;
+
+  display: block;
+  margin: auto;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.course_text{
+  width:50%;
+  height:457px;
+  position: relative;
+
+  background: #fafafa;
+
+  display: flex;
+  align-items: center;
+}
+
+.course_text2{
+  width: 480px;
+  
+  position: absolute;
+  left: 50px;
+
+  background: #fafafa;
+}
+
+.course_text3{
+  
+  position: absolute;
+  right: 50px;
+
+  background: #fafafa;
+}
+
+/*-----------------------------------------------------*/
+
+/* --------------------news部分 --------------------*/
+.news_par1{
+  /* background: rgb(241, 8, 8); */
+  width:960px;
+
+  display: block;
+  margin: auto;
+
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.news_par2{
+  /* background: rgb(241, 8, 8); */
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.news_chi1{
+  /* background: blueviolet; */
+  width: 300px;
+  font-size: 14px;
+  color: black;
+}
+
+/* ---------------------------------------------------*/
+
+/* -------------------- more部分 ----------------------*/
+.more_par{
+  width: 300px;
+  height: 60px;
+  display:flex;
+  justify-content: center;
+
+}
+
+.more{
+background-color: #ffd61a;
+width: 300px;
+height: 60px;
+
+border: none;
+
+justify-content: center;
+align-items: center;
+
+color: white;
+font-weight: bold;
+display: flex;
+font-style: 'メイリオ', 'Meiryo', sans-serif;
+font-size: 18px;
+}
+
+.more:hover {
+  background-color: bisque;
+}
+
+/* -----------------------Access部分---------------------- */
+.access_par{
+  width:1365px;
+  background: whitesmoke;
+  display: block;
+  margin: auto;
+}
+
+.access_text{
+  display:flex;
+  justify-content: center;
+}
+
+.map{
+  width: 1365px;
+  height: 450px;
+  display: block;
+  margin: auto;
+}
+
+.accecc_table_par{
+  display:flex;
+  justify-content: center;
+}
+
+.access_table{
+  border-collapse: collapse;
+  width:  50%;
+  table-layout: fixed;
+
+}
+
+.access_left_cell{
+  table-layout: fixed;
+  vertical-align: middle;
+  height: 50px;
+  width: 40px;
+}
+
+.access_right_cell{
+  table-layout: fixed;
+  vertical-align: middle;
+  height: 50px;
+  width: 100px;
+}
+
+/* --------------------------------------------------------- */
+
+.div_table{
+  width: 640px;
+  
+  display: block;
+  margin: auto;
+
+}
+
+.table {
+  border-collapse: collapse;
+  width:  100%;
+  height: 328;
+  table-layout: fixed; 
+}
+
+
+
+.left_cell{
+  background-color: #707070;
+}
+
+.th-left{
+  font-size: 16px;
+  color: #222;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  vertical-align: middle;
+  width: 37.5%;
+  height: 50px;
+}
+
+.th-right{
+  border-bottom: solid 1px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.th_bottom_right{
+  vertical-align: middle;
+  position: relative;
+}
+
+.contact_input_text2{
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  bottom: 8px;
+  width: 300px;
+  height: 80px;
+}
+
+.contact_input_text{
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  bottom: 8px;
+  width: 300px;
+  height: 28px;
+}
+
+.div_send{
+  text-align: center;
+  background: #ffd61a;
+  border: none;
+  width:  200px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+.th-bottom{
+  font-size: 16px;
+  color: #222;
+  vertical-align: middle;
+  border-right: solid 1px;
+  width: 37.5%;
+  height: 100px;
+}
+
+.footer_parent{
+  width:1365px;
+  height:80px;
+  background: #707070;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.footer_text{
+  color: white;
+}
+
+
+/* ここから下に記載していく */
